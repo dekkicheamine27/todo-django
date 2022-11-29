@@ -34,3 +34,7 @@ def remove(request, todo_id):
     todo.delete()
 
     return redirect('home')
+
+
+def test(request):
+    pass
